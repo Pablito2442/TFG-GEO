@@ -1,9 +1,9 @@
 # Auditoría de Calidad de Datos LiDAR
 
-**Fecha de generación:** 2026-02-13 12:10:57
-**Total Archivos:** 18
-**Total Puntos:** 125,260,387
-**Área Total:** 1712.12 Hectáreas
+- **Fecha de generación:** 2026-02-13 19:23:55
+- **Total Archivos:** 18
+- **Total Puntos:** 125,260,387
+- **Área Total:** 1712.12 Hectáreas
 
 ## Tabla Detallada por Archivos
 | Archivo                          |   Año Publ |   Pts (M) |   Densidad | Clases   | RGB   | NIR (Max)   |   Rebotes | Sistema de coordenadas   |
