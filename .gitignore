@@ -1,0 +1,78 @@
+# ==========================
+# PYTHON & ENTORNOS
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Entornos Virtuales (Si usas venv o conda local)
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================
+# DATOS LIDAR Y GEO (CRÍTICO)
+# ==========================
+# Ignorar archivos pesados de nubes de puntos
+*.las
+*.laz
+*.ply
+*.xyz
+
+# Ignorar archivos Raster/Imágenes pesadas
+*.tif
+*.tiff
+*.geotiff
+*.img
+*.ecw
+*.sid
+
+# Ignorar archivos temporales de GDAL/PDAL
+*.vrt
+*.aux.xml
+*.tfw
+*.ovr
+temp_*
+
+# ==========================
+# ESTRUCTURA DE DATOS
+# ==========================
+# Ignorar el contenido de las carpetas de datos
+data/01_raw/*
+data/02_intermediate/*
+data/03_processed/*
+
+# Mantener las carpetas vacías en el repo
+!data/01_raw/.gitkeep
+!data/02_intermediate/.gitkeep
+!data/03_processed/.gitkeep
+
+# ==========================
+# IDE & SO
+# ==========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

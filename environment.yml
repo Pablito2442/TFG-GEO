@@ -1,0 +1,34 @@
+name: tfg_geo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  # Procesamiento Geoespacial
+  - pdal
+  - python-pdal
+  - gdal
+  - rasterio
+  - geopandas
+  - laspy
+  - shapely
+  - pyproj
+  # Ciencia de Datos y Matemáticas
+  - numpy
+  - scipy
+  - pandas
+  - tabulate
+  # Machine Learning y Visión
+  - scikit-learn
+  - scikit-image
+  - opencv
+  # Visualización y Web
+  - matplotlib
+  - seaborn
+  - streamlit
+  - pydeck
+  - folium
+  # Herramientas
+  - jupyterlab
+  - ipykernel
