@@ -114,10 +114,10 @@ def inspect_json_metadata(folder_path):
         
         with open(output_md_path, "w", encoding="utf-8") as f:
             f.write("# Auditoría de Calidad de Datos LiDAR\n\n")
-            f.write(f"**Fecha de generación:** {now}\n")
-            f.write(f"**Total Archivos:** {len(files)}\n")
-            f.write(f"**Total Puntos:** {total_points:,}\n")
-            f.write(f"**Área Total:** {total_area/10000:.2f} Hectáreas\n\n")
+            f.write(f"- **Fecha de generación:** {now}\n")
+            f.write(f"- **Total Archivos:** {len(files)}\n")
+            f.write(f"- **Total Puntos:** {total_points:,}\n")
+            f.write(f"- **Área Total:** {total_area/10000:.2f} Hectáreas\n\n")
             f.write("## Tabla Detallada por Archivos\n")
             f.write(markdown_table)
             f.write("\n")
