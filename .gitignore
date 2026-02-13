@@ -66,7 +66,11 @@ data/03_processed/*
 # Mantener las carpetas vacías en el repo
 !data/01_raw/.gitkeep
 !data/02_intermediate/.gitkeep
+!data/02_intermediate/metadata_json/.gitkeep
 !data/03_processed/.gitkeep
+
+# Mantenemos el reporte de los datos mas relevantes de lo JSON
+!data/02_intermediate/metadata_json/*.md
 
 # ==========================
 # IDE & SO
