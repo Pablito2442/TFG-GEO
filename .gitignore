@@ -59,19 +59,15 @@ temp_*
 # ESTRUCTURA DE DATOS
 # ==========================
 # Ignorar el contenido de las carpetas de datos
+data/00_manual_reclasification/*
 data/01_raw/*
 data/02_intermediate/*
-data/02_intermediate/metadata_json/*
 data/03_processed/*
 
 # Mantener las carpetas vacías en el repo
 !data/01_raw/.gitkeep
 !data/02_intermediate/.gitkeep
 !data/03_processed/.gitkeep
-
-# Mantenemos el reporte de los datos mas relevantes de lo JSON
-!data/02_intermediate/metadata_json/
-!data/02_intermediate/metadata_json/*.md
 
 # ==========================
 # IDE & SO
